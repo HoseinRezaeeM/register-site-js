@@ -11,6 +11,7 @@ body{
   margin: 0;
   box-sizing: border-box;
   font-family: poppins;
+  color: #4d4545;
 }
 .academy{
   display: flex;
@@ -39,11 +40,12 @@ body{
 .parent{
   background-color: rgb(250, 250, 250);
   padding: 50px 40px;
-  border: 1px solid black;
+  border: 1px solid rgb(206, 204, 204);
   box-shadow: 10px 10px 1cqmin rgb(0, 128, 83) ;
   display: flex;
   flex-direction: column;
   gap: 40px;
+  border-radius: 15px;
   max-width: 700px;
   min-width: 500px;
 }
@@ -54,17 +56,18 @@ body{
 }
 .title button{
   width: 50%;
+  font-size: 15px;
   border-radius: 25px;
   background-color: #f8f8f8;
-  padding: 5px 10px;
-  border-color: #f58a8a;
+  padding: 10px 20px;
+  border-color: #ff0303;
   
 }
 .title button:hover{
   background-color:rgb(238, 108, 118) ;
   color: azure;
 }
-.title h2{
+mark{
   background-color: aquamarine;
 }
 .form{
@@ -74,7 +77,7 @@ body{
 }
 .input{
   border: none;
-  background-color: rgb(245, 242, 241);
+  background-color: rgb(240, 235, 234);
   border-radius: 10px;
   height: 40px;
   width:100% ;
@@ -109,8 +112,9 @@ button[type=submit]{
   border-radius: 25px;
   background-color: black;
   color: #ffffff;
+  font-size: 13px;
   margin-top: 20px;
-  padding: 10px 20px;
+  padding: 15px 30px;
 }
 button[type=submit]:hover{
   background-color: #ffffff;
@@ -119,6 +123,9 @@ button[type=submit]:hover{
 .register{
   display: flex;
   gap: 10px;
+}
+.register a{
+  color: #113ade;
 }
 
 @media screen and (max-width:768px){
